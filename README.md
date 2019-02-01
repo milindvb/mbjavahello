@@ -16,8 +16,7 @@ mvn clean package
 
 ### Create a new Webapp
 
-![](./media/image1.png){width="5.36799978127734in"
-height="5.064616141732284in"}
+![](./media/image1.png)
 
 ### Deploy the war file to Azure
 
