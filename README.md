@@ -25,26 +25,24 @@ Tools Go
 
 Select “Cmd” from the top menu
 
-![](./media/image2.png){width="5.384000437445319in"
-height="4.754141513560805in"}
+![](./media/image2.png)
 
 Navigate to D:\\home\\site\\wwwroot\\webapps folder
 
 On your local machine, locate the warfile under the “target” folder.
 
-![](./media/image3.png){width="6.5in" height="1.4590277777777778in"}
+![](./media/image3.png)
 
 In windows, drag and drop the war file in
 D:\\home\\site\\wwwroot\\webapps folder in the Kudu console.
 
 Alternatively you can ftp the file to the same folder.
 
-![](./media/image4.png){width="6.5in" height="2.46875in"}
+![](./media/image4.png)
 
 Navigate to &lt;azuresite&gt;/mbjavahello to see the webapp running.
 
-![](./media/image5.png){width="6.177597331583552in"
-height="1.0559995625546807in"}
+![](./media/image5.png)
 
 1.  Installing Tomcat Manager
     -------------------------
@@ -57,8 +55,7 @@ Click on “+” sign and select New Folder
 
 Create a new folder called “conf”
 
-![](./media/image6.png){width="2.9040004374453194in"
-height="1.7828849518810148in"}
+![](./media/image6.png)
 
 ### Find the path to Tomcat
 
@@ -70,8 +67,7 @@ Click Properties for the java process
 
 Click on Handles tab
 
-![](./media/image7.png){width="7.39261154855643in"
-height="2.4452482502187225in"}
+![](./media/image7.png)
 
 In this example, tomcat location is D:\\Program Files
 (x86)\\apache-tomcat-9.0.12
@@ -90,9 +86,7 @@ copy "D:\\Program Files
 (x86)\\apache-tomcat-9.0.12\\conf\\tomcat-users.xml"
 D:\\home\\site\\wwwroot\\conf\\
 
-![](./media/image8.png){width="7.23957895888014in"
-height="0.8159995625546806in"}
-
+![](./media/image8.png)
 ### Copy Tomcat Manager App to Webapps
 
 Command used:
@@ -102,8 +96,7 @@ D:\\home\\site\\wwwroot\\webapps
 
 Example:
 
-![](./media/image9.png){width="7.43459864391951in"
-height="0.47181102362204724in"}
+![](./media/image9.png)
 
 ### Create web.config, Edit server.xml and tomcat-users.xml
 
@@ -162,8 +155,7 @@ folder
 
 pathname="D:\\home\\site\\wwwroot\\conf\\tomcat-users.xml" /&gt;
 
-![](./media/image10.png){width="6.247999781277341in"
-height="3.5692366579177603in"}
+![](./media/image10.png)
 
 Edit tomcat-users.xml to create new role for manager-gui
 
@@ -204,5 +196,5 @@ Restart the webapp from “Overview” pane in Azure portal.
 Navigate to : &lt;appname&gt;.azurewebsites.net/manager to access the
 manager console.
 
-![](./media/image11.png){width="6.5in" height="3.6416666666666666in"}
+![](./media/image11.png)
 
